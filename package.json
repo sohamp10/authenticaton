@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node ./server.js"
   },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.2",
@@ -14,20 +18,21 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
+    "mongoose": "^6.0.9",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "portfolio",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sohamp10/portfolio75.git"
   },
-  "author": "soham patel",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sohamp10/portfolio75/issues"
   },
-  "homepage": "https://github.com/sohamp10/portfolio75#readme"
+  "homepage": "https://github.com/sohamp10/portfolio75#readme",
+  "description": ""
 }
