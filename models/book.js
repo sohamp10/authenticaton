@@ -4,9 +4,9 @@ let mongoose = require('mongoose');
 
 let bookModel = mongoose.Schema({
     name: String,
-    author: String,
-    published: String,
-    price: Number
+    ContactNumber: String,
+    Email: String
+   
 },
 {
     collection:"books"
